@@ -1,4 +1,8 @@
 body {background-color: #d3d3d3;}
 h1 {text-align:center;}
 h2 {text-align:center;}
-a {text-align:left;}
+a {text-align:left; color: Silver;}
+table {background-color: Sienna; color: #d3d3d3; text-align: center; border-collapse: collapse}
+th {text-align: center;}
+td {border: solid;}
+
