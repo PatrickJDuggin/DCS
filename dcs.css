@@ -5,4 +5,8 @@ a {text-align:left; color: Silver;}
 table {background-color: Sienna; color: #d3d3d3; text-align: center; border-collapse: collapse}
 th {text-align: center;}
 td {border: solid;}
+ul {list-style-type: none; margin 0; padding: 0; overflow: hidden; background-color: Sienna;}
+li {float: left;}
+li a {display: block; color: silver; text-align: center; padding: 14px 16px;}
+li a:hover {background-color:Black;}
 
