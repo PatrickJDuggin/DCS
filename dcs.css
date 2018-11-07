@@ -6,7 +6,7 @@ table {background-color: Sienna; color: #d3d3d3; text-align: center; border-coll
 th {text-align: center;}
 td {border: solid;}
 ul {list-style-type: none; margin 0; padding: 0; overflow: hidden; background-color: Sienna;}
-li {display: block;}
+li {display: inline-block;}
 li a {display: block; color: silver; text-align: center; padding: 16px 4px; text-decoration: none;}
 li a:hover {background-color:Black;}
 
