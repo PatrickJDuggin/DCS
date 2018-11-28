@@ -8,5 +8,6 @@ td {border: solid;}
 ul {list-style-type: none; margin 0; padding: 0; overflow: hidden; background-color: Sienna;}
 li {display: inline-block;}
 li a {display: block; color: silver; text-align: center; padding: 16px 4px; text-decoration: none;}
-li a:hover {background-color:Black;}
-body>ul>li>ul {display: none;}
+li a:hover, ul>li:hover>a, ul>li:focus-within>a, ul>li>ul>li:hover>a, ul>li>ul>li:focus>a  {background-color:Black;}
+ul>li>ul {display: none;}
+ul>li, ul>li:focus-within>ul {position: absolute; display: block; z-index: 1; white-space: nowrap}
