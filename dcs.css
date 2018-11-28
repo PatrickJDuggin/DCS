@@ -6,8 +6,9 @@ table {background-color: Sienna; color: #d3d3d3; text-align: center; border-coll
 th {text-align: center;}
 td {border: solid;}
 ul, body>h2>ul {list-style-type: none; margin 0; padding: 0; overflow: hidden; background-color: Sienna;}
-li,  body>h2>li, body>h2>ul:li{display: inline-block;}
+li,  body>h2>li, body>h2>ul>li{display: inline-block;}
 body>h2>li a, li a {display: block; color: silver; text-align: center; padding: 16px 4px; text-decoration: none;}
+body>h2>ul>li {position: relative; display: inline-block}
 li a:hover, body>h2>ul>li:hover>a, body>h2>ul>li:focus-within>a, body>h2>ul>li>ul>li:hover>a, body>h2>ul>li>ul>li:focus>a  {background-color:Black;}
 body>h2>ul>li>ul {display: none;}
 body>h2>ul>li, body>h2>ul>li:focus-within>ul {position: absolute; display: block; z-index: 1; white-space: nowrap}
