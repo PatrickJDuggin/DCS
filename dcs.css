@@ -5,7 +5,7 @@ a {text-align:left; color: Silver;}
 table {background-color: Sienna; color: #d3d3d3; text-align: center; border-collapse: collapse}
 th {text-align: center;}
 td {border: solid;}
-ul {list-style-type: none; margin: 0px; padding: 0; overflow: hidden; background-color: Sienna;}
+ul {list-style-type: none; margin: 0px; padding: 0;  background-color: Sienna;}
 li {display: inline-block;}
  li a {display: block; color: silver; text-align: center; padding: 16px 4px; text-decoration: none;}
 body>h2>ul>li>ul {display: none;}
