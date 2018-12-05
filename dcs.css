@@ -9,7 +9,7 @@ ul {list-style-type: none; margin 0; padding: 0; overflow: hidden; background-co
 li {display: inline-block;}
  li a {display: block; color: silver; text-align: center; padding: 16px 4px; text-decoration: none;}
 body>h2>ul>li>ul {display: none;}
-body>h2>ul>li:hover>ul, body>h2>ul>li:focus-within>ul {position: absolute; display: block; z-index: 1; white-space: nowrap;}
+body>h2>ul>li a:hover>ul, body>h2>ul>li a:focus-within>ul {position: absolute; display: block; z-index: 1; white-space: nowrap;}
 body>h2>ul>li {position: relative; display: inline-block}
 li a:hover {background-color:Black;}
 
